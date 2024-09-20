@@ -1,0 +1,17 @@
+Credit Card Fraud Detection on Imbalanced Data
+This notebook demonstrates strategies for tackling challenges in credit card fraud detection using machine learning. It focuses on detecting fraudulent transactions, addressing data imbalance issues, and evaluating model performance to identify the best approach.
+Python,Pandas,Matplotlib,Seaborn
+./projects/project1/project1.png
+https://github.com/rhsbd/Credit-Card-Fraud-Detection-on-Imbalanced-Data-Using-Machine-Learning
+
+Crop Prediction App Using Machine Learning
+This Streamlit web app predicts the best crop to grow based on soil and environmental conditions. Using a trained machine learning model and a Kaggle dataset, it takes inputs like nitrogen, phosphorus, potassium, temperature, humidity, pH level, and rainfall.
+Python,Numpy,Pandas,Matplotlib,Seaborn
+./projects/project2/project2.png
+https://github.com/rhsbd/Crop-Recommendation-Using-Machine-Learning
+
+Titanic Survival Prediction with Machine Learning
+This notebook focuses on the Titanic dataset to predict whether a passenger survived or not, using various classification algorithms. We compare multiple machine learning models based on accuracy and ROC AUC metrics, followed by saving the best-performing model.
+Python,Numpy,Pandas,Matplotlib,Seaborn
+./projects/project3/project3.png
+https://github.com/rhsbd/Titanic-Survival-Prediction-Using-Machine-Learning

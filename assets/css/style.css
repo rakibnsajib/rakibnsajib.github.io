@@ -1,0 +1,252 @@
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Space between each link */
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Space between icon and text */
+    color: #4B5563; /* Gray color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.2s; /* Smooth color transition */
+    font-size: 0.875rem; /* Text size for small screens */
+  }
+  
+  .social-link:hover {
+    color: #3B82F6; /* Change color on hover */
+  }
+  
+  .social-link svg {
+    width: 24px; /* Icon size for small screens */
+    height: 24px;
+  }
+  
+  @media (min-width: 768px) {
+    .social-link {
+      font-size: 0.9rem; /* Larger text size for medium screens */
+    }
+  
+    .social-link svg {
+      width: 20px; /* Icon size for medium screens */
+      height: 20px;
+    }
+  }
+  
+
+  body {
+    font-family: 'Georgia', serif; /* Set the font to Georgia */
+  }
+  .h-screen {
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+  }
+  
+  .justify-center {
+    justify-content: center; /* Center children vertically */
+  }
+  
+  .sticky {
+    position: sticky;
+  }
+  
+  .top-0 {
+    top: 0; /* Stick to the top */
+  }
+  
+  /* Existing styles can remain unchanged */
+  
+  .h-screen {
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+  }
+  
+  .justify-center {
+    justify-content: center; /* Center children vertically */
+  }
+  
+  .sticky {
+    position: sticky;
+  }
+  
+  .top-0 {
+    top: 0; /* Stick to the top */
+  }
+  
+  /* Existing styles can remain unchanged */
+  
+  .project {
+    margin-bottom: 20px;
+}
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+.project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.project-description {
+    margin-top: 10px;
+    color: #666;
+}
+.technologies {
+    margin-top: 10px;
+}
+.tech-badge {
+    background-color: lightblue;
+    color: darkblue;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+#skills {
+    background-color: #f9f9f9; /* Light background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #skills-list {
+    margin-top: 10px;
+    font-size: 12px; /* Adjust font size as needed */
+  }
+  
+  .primary-skill {
+    font-weight: bold; /* Bold primary skills */
+  }
+  
+
+.list-icon {
+    color: #4B5563; /* Dark gray color */
+    font-size: 1em; /* Size of the icon */
+    margin-right: 0.4em; /* Spacing between the icon and the text */
+    vertical-align: middle; /* Aligns the icon with the text */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.list-icon:hover {
+    color: #3B82F6; /* Change icon color on hover (blue) */
+}
+
+
+
+/* education */
+#education {
+    font-family: 'Georgia', serif;
+    margin-top: 50px;
+}
+
+#education h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.education-item {
+    margin-bottom: 30px;
+}
+
+.education-item p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+/* Indentation for sub-items */
+.degree, .institution, .courses {
+    padding-left: 20px;
+}
+
+/* Italic style for educational institution */
+.institution {
+    font-style: italic;
+}
+
+/* Add margin-top and padding-left for relevant courses to create space and indentation */
+.courses {
+    margin-top: 10px;
+    padding-left: 40px;
+    display: block;
+    font-size: 14px; /* Adjusted to 1px smaller than the regular text */
+}
+
+/* General font-weight */
+.education-item strong {
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Certifications */
+
+#certifications {
+    margin-top: 20px;
+}
+
+.cert-item {
+    margin-bottom: 15px;
+}
+
+.cert-item strong {
+    font-size: 16px;
+}
+
+.cert-item .cert-institution {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.cert-item .cert-date {
+    font-size: 13px;
+    color: #555;
+
+}
+
+.cert-item a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.cert-item a:hover {
+    text-decoration: underline;
+}
+
+
+.cert-item .cert-date, .cert-institution {
+    padding-left: 20px;
+}
+
+
+
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+  margin-top: 30px; /* Space from the navbar or other elements */
+}
