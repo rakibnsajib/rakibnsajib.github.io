@@ -70,9 +70,16 @@ body {
   #profile-pic {
       margin-top: 10px;
   }
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  /* Hide desktop navbar on mobile */
+  #desktop-navbar {
+    display: none;
 }
-
-
+}
 
 /* Default: hide the mobile navbar */
 #mobile-navbar {
@@ -80,10 +87,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* Hide desktop navbar on mobile */
-  #desktop-navbar {
-      display: none;
-  }
+ 
 
   /* Show the mobile navbar */
   #mobile-navbar {
